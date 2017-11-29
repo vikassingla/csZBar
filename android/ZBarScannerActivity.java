@@ -174,7 +174,7 @@ implements SurfaceHolder.Callback {
                   }
                 }
             });
-            findViewById(getResourceId("id/scanQrCode").bringToFront();
+            findViewById(getResourceId("id/scanQrCode")).bringToFront();
             scannerView.addView(scannerSurface);
             scannerView.requestLayout();
             scannerView.invalidate();
